@@ -1,0 +1,4 @@
+# SPICE ignore file
+*.raw
+*.log
+*.plt
