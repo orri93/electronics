@@ -50,7 +50,7 @@ Q2,,,,2N5818 Silicon,,,
 Q3,,,,2N5818 Silicon,,,
 Q4,,,,2N5818 Silicon,,,
 Q5,,,,2N5818 Silicon,,,
-Q7*,,,,FET N-Channel Clamp Diode,E2408,0.140 V,
+Q7*,,,,FET N-Channel Clamp Diode,E2408,0.140 V,0.652 V
 Q8,,,,FET N-Channel Clamp Diode,,0.638 V,
 Q9,,,,FET N-Channel Clamp Diode,,0.621 V,
 Q10,,,,FET P-Channel,,,
