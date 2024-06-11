@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "781feb3c-170b-47ba-82cf-52e6e4b3af11")
+	(paper "A3")
+	(title_block
+		(title "MOS Frekvenstaeller by Jan Soelberg")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
