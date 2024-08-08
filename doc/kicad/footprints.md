@@ -42,6 +42,7 @@ Diodes
 | Type   | Footprint                                                      |
 | ------ | -------------------------------------------------------------- |
 | 1N4148 | Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal                     |
+| 1N4005 | Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal                    |
 
 ### Surface-mount technology (SMT)
 
