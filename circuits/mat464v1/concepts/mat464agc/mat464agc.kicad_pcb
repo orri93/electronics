@@ -716,7 +716,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "MK1"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "d7ec03b6-5c6a-4b5e-b4ac-9913471d3f7c")
 			(effects
@@ -727,7 +727,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 4.87 360)
+			(at 0 4.87 0)
 			(layer "F.Fab")
 			(uuid "d4109716-2b61-42bc-85fc-09265cb17d74")
 			(effects
@@ -7001,7 +7001,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D2"
-			(at 3.81 -2.12 360)
+			(at 3.81 -2.12 0)
 			(layer "F.SilkS")
 			(uuid "5e834abe-ac4a-40f5-b5eb-8c5139af63c9")
 			(effects
@@ -7012,7 +7012,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 360)
+			(at 3.81 2.12 0)
 			(layer "F.Fab")
 			(uuid "c8ab6c2a-6a24-4c90-8f67-85d5c7b10efe")
 			(effects
@@ -7313,7 +7313,7 @@
 			(uuid "ab3bd2c9-95a8-4f9b-80db-edcd1255ae48")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 360)
+			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "c3d81ddc-55be-4c02-9b39-63d2085b1a35")
 			(effects
@@ -7324,7 +7324,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 360)
+			(at 0 -1.8 0)
 			(layer "F.Fab")
 			(uuid "9e4b0a99-abed-478a-832a-6ccdd8c4689c")
 			(effects
@@ -7335,7 +7335,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 360)
+			(at 4.11 0 0)
 			(layer "F.Fab")
 			(uuid "ee13d3eb-c48d-4036-9149-3c69b8ab8af9")
 			(effects
@@ -7812,7 +7812,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 1.27 -3.56 360)
+			(at 1.27 -3.56 0)
 			(layer "F.SilkS")
 			(uuid "7a27aa09-00b0-49b4-82d8-0fb3274873fa")
 			(effects
@@ -7823,7 +7823,7 @@
 			)
 		)
 		(property "Value" "BC547"
-			(at 1.27 2.79 360)
+			(at 1.27 2.79 0)
 			(layer "F.Fab")
 			(uuid "bf886f96-a42f-4c7a-9fcd-0a4e47ad0374")
 			(effects
@@ -7982,7 +7982,7 @@
 			(uuid "1f539521-62d7-49ee-a3b8-b0c2190541d3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "f9f5b8eb-a413-4dfb-b231-947001acad66")
 			(effects
@@ -8218,20 +8218,20 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "F.Cu")
-		(uuid "5a3c05ed-2521-4241-895e-c056934fa77f")
+		(layer "User.1")
+		(uuid "38415697-e2ff-46db-aaae-840c5033a399")
 		(pts
-			(xy 128.524 30.988) (xy 128.524 78.74)
+			(xy 69.85 78.74) (xy 128.524 78.74)
 		)
-		(height -7.112)
-		(gr_text "47.7520 mm"
-			(at 133.836 54.864 90)
-			(layer "F.Cu")
-			(uuid "5a3c05ed-2521-4241-895e-c056934fa77f")
+		(height 6.35)
+		(gr_text "58.6740 mm"
+			(at 99.187 83.94 0)
+			(layer "User.1")
+			(uuid "38415697-e2ff-46db-aaae-840c5033a399")
 			(effects
 				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8243,7 +8243,7 @@
 			(precision 4)
 		)
 		(style
-			(thickness 0.2)
+			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
 			(extension_height 0.58642)
@@ -8251,20 +8251,20 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "F.Cu")
-		(uuid "f4962898-f811-4b31-947f-f2444825eb16")
+		(layer "User.1")
+		(uuid "aeaa42b5-d186-4bb0-bcdc-363f5bedce6a")
 		(pts
-			(xy 69.85 78.74) (xy 128.524 78.74)
+			(xy 128.524 30.988) (xy 128.524 78.74)
 		)
-		(height 8.636)
-		(gr_text "58.6740 mm"
-			(at 99.187 85.576 0)
-			(layer "F.Cu")
-			(uuid "f4962898-f811-4b31-947f-f2444825eb16")
+		(height -8.382)
+		(gr_text "47.7520 mm"
+			(at 135.756 54.864 90)
+			(layer "User.1")
+			(uuid "aeaa42b5-d186-4bb0-bcdc-363f5bedce6a")
 			(effects
 				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8276,7 +8276,7 @@
 			(precision 4)
 		)
 		(style
-			(thickness 0.2)
+			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
 			(extension_height 0.58642)
