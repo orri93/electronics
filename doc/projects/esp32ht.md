@@ -11,7 +11,7 @@ A(Sensor) --> B[MCU] --> C[[Display]]
 ```
 
 Components
-------------------
+----------
 
 | Function          | Component           | Digi Key                                                                                                                   | Datasheet                                                                                                                                                                              |
 | ----------------- | ------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -21,3 +21,20 @@ Components
 | Dispaly           | EA DOGM132S-5       | [1481-1072-ND](https://www.digikey.com/en/products/detail/display-visions/EA-DOGM132S-5/4896711)                           | [DOGM132 GRAPHIC](https://www.lcd-module.de/eng/pdf/grafik/dogm132-5e.pdf)                                                                                                             |
 | Antenna           |                     |                                                                                                                            |                                                                                                                                                                                        |
 
+MCU Pin Connection
+------------------
+
+* [ESP32-WROOM-32 Pinout Reference](https://lastminuteengineers.com/esp32-wroom-32-pinout-reference)
+
+| Function  | GPIO | Pin | Device | Pin |
+| --------- | ---- | --- | ------ | --- |
+| VSPI CLK  | 18   | 30  | SCK    | 4   |
+| VSPI MISO | 19   | 31  | SDO    | 5   |
+| VSPI MOSI | 23   | 37  | SDI    | 3   |
+| VSPP CS   | 5    | 29  | SCB    | 2   |
+| HSPI CLK  | 14   | 13  | SCL    | 37  |
+| HSPI MISO | 12   | 14  | SI     | 36  |
+| HSPI MOSI | 13   | 16  |        |     |
+| HSPI CS   | 15   | 23  | CS1B   | 40  |
+|           | 21   | 33  | A0     | 38  |
+|           | 22   | 36  | RST    | 39  |
