@@ -28,6 +28,9 @@ MCU Pin Connection
 
 | Function  | GPIO | Pin | Device | Pin |
 | --------- | ---- | --- | ------ | --- |
+| BOOT      | 0    | 25  | SW     |     |
+| TX        | 1    | 35  | TX     |     |
+| RX        | 3    | 34  | RX     |     |
 | VSPI CLK  | 18   | 30  | SCK    | 4   |
 | VSPI MISO | 19   | 31  | SDO    | 5   |
 | VSPI MOSI | 23   | 37  | SDI    | 3   |
