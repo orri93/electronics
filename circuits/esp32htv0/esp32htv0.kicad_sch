@@ -4112,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 148.59) (xy 119.38 148.59)
+			(xy 116.84 148.59) (xy 132.08 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4869,16 +4869,6 @@
 			(type default)
 		)
 		(uuid "c7517f2c-85f2-4656-a01b-cd6cb925db55")
-	)
-	(wire
-		(pts
-			(xy 127 148.59) (xy 132.08 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c77b783a-73cb-4717-8ee5-8ceced5162b1")
 	)
 	(wire
 		(pts
@@ -7468,74 +7458,6 @@
 			(project "esp32htv0"
 				(path "/c735b065-5822-4fb3-b1b1-2e3dddcad806"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 123.19 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75e97acc-233e-45f8-8831-e3e8f9a962ea")
-		(property "Reference" "JP2"
-			(at 123.19 151.873 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ID_WP"
-			(at 123.19 145.796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 123.19 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "705ef431-8b91-47dc-8e7b-70f039dfe1e9")
-		)
-		(pin "2"
-			(uuid "ee798425-8775-48ea-8527-ed5b2a8b70e4")
-		)
-		(instances
-			(project "esp32htv0"
-				(path "/c735b065-5822-4fb3-b1b1-2e3dddcad806"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
