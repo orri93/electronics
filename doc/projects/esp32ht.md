@@ -43,18 +43,17 @@ MCU Pin Connection
 
 * [ESP32-WROOM-32 Pinout Reference](https://lastminuteengineers.com/esp32-wroom-32-pinout-reference)
 
-| Function  | GPIO | Pin | Device | Pin |
-| --------- | ---- | --- | ------ | --- |
-| BOOT      | 0    | 25  | SW     |     |
-| TX        | 1    | 35  | TX     |     |
-| RX        | 3    | 34  | RX     |     |
-| VSPI CLK  | 18   | 30  | SCK    | 4   |
-| VSPI MISO | 19   | 31  | SDO    | 5   |
-| VSPI MOSI | 23   | 37  | SDI    | 3   |
-| VSPP CS   | 5    | 29  | SCB    | 2   |
-| HSPI CLK  | 14   | 13  | SCL    | 37  |
-| HSPI MISO | 12   | 14  | SI     | 36  |
-| HSPI MOSI | 13   | 16  |        |     |
-| HSPI CS   | 15   | 23  | CS1B   | 40  |
-|           | 21   | 33  | A0     | 38  |
-|           | 22   | 36  | RST    | 39  |
+| Function  | GPIO | ANE32 Pin | Pin | Device  | Device Pin | Pin |
+| --------- | ---- | --------- | --- | ------- | ---------- | --- |
+| BOOT      |  0   |           | 25  | Prog    | SW         |     |
+| TX        |  1   |           | 35  | Prog    | TX         |     |
+| RX        |  3   |           | 34  | Prog    | RX         |     |
+| MOSI      | 38   | D11       |     | BME 280 | SCK        | 4   |
+| MISO      | 47   | D12       |     | BME 280 | SDO        | 5   |
+| SCKL      | 48   | D13       |     | BME 280 | SDI        | 3   |
+| CS        | 21   | D10       |     | BME 280 | SCB        | 2   |
+| MOSI      |  8   | D5        |     | DOGS102 | SDA/SI     | 24  |
+| SCKL      |  9   | D6        |     | DOGS102 | SCK/SCL    | 25  |
+| CS        | 10   | D7        |     | DOGS102 | CS0/CS     | 28  |
+|           | 17   | D8        |     | DOGS102 | CD/A0      | 26  |
+|           | 18   | D9        |     | DOGS102 | RST        | 27  |
