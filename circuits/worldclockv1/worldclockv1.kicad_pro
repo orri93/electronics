@@ -633,6 +633,10 @@
     [
       "707d1354-9da6-4657-975c-432494c49cb2",
       "Displays"
+    ],
+    [
+      "8d8e18d7-d46a-4ee4-94f7-41b7ff550b8f",
+      "Rotary Encoder Module"
     ]
   ],
   "text_variables": {}
