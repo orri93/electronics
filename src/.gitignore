@@ -1,0 +1,66 @@
+# STM32CubeIDE
+.settings/
+#.metadata/
+
+# Build output
+Debug/
+Release/
+build/
+
+# Generated binaries
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# Object files
+*.o
+*.obj
+*.d
+*.su
+
+# Libraries
+*.a
+*.lib
+
+# STM32CubeIDE temporary files
+*.launch
+*.ioc.backup
+*.mxproject
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# VSCode (optional)
+.vscode/
+
+# Keil / IAR leftovers (optional)
+*.uvprojx
+*.uvoptx
+*.ewp
+*.eww
+*.ewd
+
+# CMake (if used later)
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# Coverage / profiling
+*.gcda
+*.gcno
+*.gcov
+
+# Python virtualenvs (if using scripts/tools)
+venv/
+.venv/
